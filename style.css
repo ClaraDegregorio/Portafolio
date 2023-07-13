@@ -9,10 +9,10 @@
     src: url(Fonts/Nunito-Regular.ttf);
 }
 /* Inicio Body */
-body
+/* body
 {
     background-color: white;
-}
+} */
 
 /* Inicio Header */
 
@@ -109,10 +109,9 @@ body img{
 a{
     text-decoration: none;
     color: black;
-
 }
 
-/* Tipografias */
+/* Tipografias
     h1{    
         font-family: cgtimes;
         font-size: 2rem;
@@ -123,7 +122,7 @@ a{
     h4 {
         font-family: cgtimes;
         font-size: 20px;
-}
+} */
 
 p{
     font-family: nunito;
