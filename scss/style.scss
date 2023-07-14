@@ -1,10 +1,11 @@
 // Imports utilities //
 @import "./utilities/variables";
+@import "./utilities/condicionales";
+@import "./utilities/bucles";
+@import "./utilities/maps";
 
+// Imports globals //
+@import "./globals/reset";
 
 // Imports views//
 @import "./views/home";
-
-body{
-    background-color: aqua;
-}
