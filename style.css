@@ -1,13 +1,4 @@
-/* Font Family, @Font-face */
-@font-face {
-    font-family: cgtimes;
-    src: url(Fonts/cg-times/CG\ Times\ Regular\ font.ttf);
-}
 
-@font-face {
-    font-family: nunito;
-    src: url(Fonts/Nunito-Regular.ttf);
-}
 /* Inicio Body */
 /* body
 {
@@ -16,15 +7,8 @@
 
 /* Inicio Header */
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 
-}
-
-
-
+/* 
 .menu-container{
     background-color: #1a1a1a;
     background-position: center;
@@ -35,35 +19,33 @@
     position: sticky;
     top: 0px;
     justify-content: space-around; 
-}
+} */
 
-.navbar-brand{
+/* .navbar-brand{
     color: aliceblue;
     font-size: 20px;
     font-family: cgtimes;
     align-items: center;
     padding: 20px;
     justify-content: space-around;
-
-
-}
-.nav-link {
+} */
+/* .nav-link {
     color: aliceblue;
     font-size: 20px;
     font-family: cgtimes;
     align-items: center;
     justify-content: space-around;
-} 
+}  */
 
 
-.navbar-nav a{
+/* .navbar-nav a{
     border-bottom: 2px solid #1a1a1a;
     transition: all 0.5s ease;
 }
 
 .nav-link:hover a{
 border-color: #FBFCF9;
-} 
+}  */
 
 
 
@@ -74,7 +56,7 @@ border-color: #FBFCF9;
 
 /* Banner */
 
-main{
+/* main{
     max-width: 1200px;
     margin: 2rem auto;
     padding: 0 1rem;
@@ -83,35 +65,27 @@ main{
 
 .banner{
     width: 100%;
-}
-
-/* Logo */
+} */
 
 
-body main .logo{
-    box-sizing: border-box;
-    width: 100%;
-    display: wrap;
-    flex-direction: column;
-}
 
 /* IMG */
 
-body img{
+/* body img{
     width: 40%;
     display: flex;
     justify-content: center;
-}
+} */
 
 
 /* Links */
-a{
+/* a{
     text-decoration: none;
     color: black;
-}
+} */
 
 /* Tipografias */
-    h1{    
+    /* h1{    
         font-family: cgtimes;
         font-size: 2rem;
         margin-top: 50px;
@@ -126,9 +100,9 @@ a{
 p{
     font-family: nunito;
 font-size: 15px;
-}
+} */
 
-#acerca-de{
+/* #acerca-de{
     display: flex;
     display: wrap;
     background-color: #1a1a1a;
@@ -136,8 +110,8 @@ font-size: 15px;
     gap: 1rem;
     flex-direction: column;
     padding: 200px;
-}
-
+} */
+/* 
 #acerca-de p{
     color: #FBFCF9;
 }
@@ -146,9 +120,11 @@ font-size: 15px;
     color: #FBFCF9;
     text-align: left;
     margin: 0;
-}
+} */
+
+
 /* Media Query Acerca de*/
-@media only screen and (max-width: 500px){
+/* @media only screen and (max-width: 500px){
     #acerca-de{
         padding: 80px 30px 80px 30px;
     }
@@ -158,16 +134,12 @@ font-size: 15px;
     #acerca-de{
         padding: 120px 40px 120px 40px;
     }
-    }
-    
-    
-
-
+    } */
 
 
 
 /* Section Proyectos*/
-.grid{
+/* .grid{
     display: flex;
     justify-content: center;
     align-items: top;
@@ -188,7 +160,7 @@ font-size: 15px;
 
 .proyecto_img{
     width: 80%
-}
+} */
 
 
 
@@ -201,7 +173,7 @@ font-size: 15px;
 
 
 /* Inicio Footer */
-footer h2{
+/* footer h2{
     color:#FBFCF9 ;
 }
 
@@ -227,7 +199,7 @@ footer p{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} */
 
 
 /* Fin Footer */

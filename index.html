@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 <!-- CSS -->
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   </head>
 
@@ -37,8 +38,6 @@
 </nav>
 
 
-
-
     </header>
 
     <!-- Fin Header -->
@@ -60,10 +59,41 @@
         <h1 id="titulo-acerca-de"> Acerca de
         </h1>
 
-        <p id="p-acerca-de"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+        <p id="p-acerca-de"> Este portfolio intenta demostrar procesos en lugar de resultados finales. Aunque podría describirlo como un portafolio de diseño, en este ultimo tiempo empecé a conocer un poco  del mundo del desarrollo web, lo que me llevó a crear esta página. 
+            <br><br>
+            Hoy es diseño, instalaciones y desarrollo web. Mañana quizás sea otra cosa. 
+        </p> <br>
+        <hr id="linea">
+        <div id="cv">
+            <article class="cv-item">
+            <h5>Estudios
+            </h5>
+            <h6>Universitarios
+                </h6>
+                <p>
+                    Licenciatura en Diseño - Universidad de San Andres
+                    </p>
+                    <h6>Cursos
+                    </h6>
+                    <p>Desarrollo Web - CoderHouse
+                    </p> 
+        </article>
 
-        </p>
-        
+        <article class="cv-item">
+            <h5>Trabajos
+            </h5>
+
+                <p> MURALvida Program Administrator Intern <br> MURAL
+                    </p>
+                    
+
+                    <p> Asistente de comunicación y diseñadora junior <br> FTG Comunicación
+                    <br>
+                </p>
+
+        </article>
+            
+        </div>
     </section>
     <!-- Fin Section Acerca de -->
 
@@ -82,15 +112,14 @@
         </h4>
 
         <P id="p-1"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-
         </P>
 
-        <img class="proyecto_img" src="IMG/rgb.png" alt="rgb" id="img-1">
+        <img class="proyecto_img" src="IMG/rgb.png" alt="rgb" id="img-1" data-aos="zoom-in" data-aos-duration="2000">
     </article>
     <!-- Fin RGB-->
 
     <!-- Inicio Narrativas -->
-    <article class="item" id="narrativas">
+    <article class="item" id="narrativas" >
 
     <h4>
         <a href="pages/narrativas.html" id="title-2">
@@ -102,13 +131,13 @@
 
     </p>
 
-    <img class="proyecto_img" src="IMG/NARRATIVAS.png" alt="Narrativas" id="img-3">
+    <img class="proyecto_img" src="IMG/NARRATIVAS.png" alt="Narrativas" id="img-3" data-aos="zoom-in" data-aos-duration="2000">
 
     </article>
     <!-- Fin Narrativas -->
 
     <!-- Inicio Paisajes -->
-    <article class="item" id="paisajes">
+    <article class="item" id="paisajes" >
         <h4>
             <a href="pages/paisajes.html" id="title-3">
                 Paisajes
@@ -119,7 +148,7 @@
 
         </p>
 
-        <img class="proyecto_img" src="IMG/main.JPG" alt="Paisajes" id="img-3">
+        <img class="proyecto_img" src="IMG/main.JPG" alt="Paisajes" id="img-3" data-aos="zoom-in-down" data-aos-duration="2000">
     </article>
 
     <!-- Fin RGB -->
@@ -130,31 +159,28 @@
 
 
 <br>
-    <!-- Footer Contacto -->
-
+    <!-- Inicio Footer Contacto -->
 
     <footer id="footer">
+
         <section id="contacto">
-            <h2>Contacto
-            </h2>
-
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            </p>
-
-            <ul>
+            <ul id="contacto-item">
                 <li>
-                    <a href="https://www.whatsapp.com/?lang=es">Whatsapp</a>
+                    <a href="https://api.whatsapp.com/send?phone=1164451677" target="_blank">+54 9 11 64451677</a>
                 </li>
                 <li>
-                    <a href="https://www.google.com/intl/es-419/gmail/about/"></a>
+                    <a href="mailto:claridegre@gmail.com">Claridegre@gmail.com</a>
                 </li>
             </ul>
-
         </section>
     </footer>
-
-  </body>
+    <!-- Fin Footer Contacto -->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  </body>
 </html>

@@ -1,0 +1,45 @@
+/* Inicio Footer */
+
+#footer{
+    background-color: $color-primary;
+    padding: 6rem;
+    
+    #contacto{
+        @include flex (null, center, center ,null,null);
+    }
+
+    #contacto-item{
+        @include flex (null, center, center, 20rem,wrap);  
+        width: 100%;
+        list-style: none;
+    }
+    li a{
+        text-decoration: none;
+        color: $color-secondary;
+    }}
+
+
+/* Fin Footer */
+
+/* Media Query Footer*/
+
+@media only screen and (min-width:500px) and (max-width: 960px) {
+    #footer{
+        padding: 4rem;
+        #contacto-item{
+            @include flex (null, center, center, 5rem,wrap);  
+        }
+    }}
+
+
+    @media only screen and (max-width: 500px){
+        #footer{
+            padding: 3rem;
+            #contacto{
+                @include flex (null, center, center ,null,null);
+            }
+        
+            #contacto-item{
+                @include flex (null, center, center, 4rem,wrap);  
+            }
+        }}

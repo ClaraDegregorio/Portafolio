@@ -3,9 +3,16 @@
 @import "./utilities/condicionales";
 @import "./utilities/bucles";
 @import "./utilities/maps";
+@import "./utilities/mixins";
 
 // Imports globals //
 @import "./globals/reset";
 
+// Imports layouts //
+@import "./layouts/footer";
+@import "./layouts/navbar";
+
 // Imports views//
+@import "./views/paisajes";
+@import "./views/narrativas";
 @import "./views/home";
