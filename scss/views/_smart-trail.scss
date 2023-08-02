@@ -1,0 +1,41 @@
+#titulo-smart{
+    padding: 4rem 1rem 0rem 1rem;
+}
+
+#smart{
+    @include flex (row,center,center, 0.5rem, wrap);
+    padding: 0rem 10rem;
+}
+
+#paisajes-page img,#paisajes-page .carousel-slide{
+    width: 30%;
+    height: 30%;
+    max-width: 100%;
+    flex: 1 1 clamp(300px, 30%, 400px);
+    position: relative;
+    margin: 0 auto;
+}
+
+
+
+#paisajes-page h1,#paisajes-page p{
+    margin-left: 3rem;
+}
+#paisajes-page p{
+    padding: 2rem;
+}
+
+#paisajes-page .img-grandes{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Media Query Smart Trail*/
+
+@media only screen and (max-width: 960px) {
+    #paisajes-page p, #paisajes-page h1{
+        padding: 1rem;
+        margin-left: 1rem;
+}}
+
+

@@ -5,15 +5,13 @@
     background-color: $color-primary;
     position: sticky;
     top: 0px;
-    padding: 10px;
+    padding: 0.7rem;
     z-index: 1000;
 }
-
 
 .navbar-brand, .nav-item {
 margin: 10px 30px 10px 20px;
     }
-
 
 .navbar-brand, .nav-link{
     color: $color-secondary !important;

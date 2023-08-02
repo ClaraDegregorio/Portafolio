@@ -19,42 +19,72 @@
     
 <body>
 
-            <!-- Inicio Header -->
-            <header class="menu-container">
+    <!-- Inicio Header -->
 
-                <!-- Menu -->
-        
-                <nav class="navbar navbar-expand-lg">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html">Inicio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-link" href="../index.html#acerca-de">Acerca de</a>
-                <a class="nav-link" href="../index.html#proyectos">Proyectos</a>
-                <a class="nav-link" href="../pages/rgb.html#contacto">Contacto</a>
-              </div>
-            </div>
-          </div>
-        </nav>
+    <header class="menu-container">
+
+        <!-- Menu -->
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">Inicio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/index.html#acerca-de">Acerca de</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="../index.html#proyectos" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Proyectos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../pages/rgb.html">RGB</a></li>
+              <li><a class="dropdown-item" href="../pages/smart-trail.html">Smart Trail</a></li>
+              <li><a class="dropdown-item" href="../pages/biomateriales.html">Biomateriales</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
     </header>
-        
-                <!-- Fin Header -->
-        
-    
-    <h2>
+
+    <!-- Fin Header -->
+
+       <section id="rgb-pages">
+
+        <div class="rgb-pages-item">
+    <h1>
         RGB
-    </h2>
+    </h1>
 
-    <P>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-    </P>
-
+    <p>
+        Esta instalación presenta una acción performática en tiempo real a través de medios digitales. Explora la percepción de la realidad mediante un lente, utilizando la pantalla verde en una sala inversiva.    
+</p>
+</div>
 
     <br>
+
+    <video src="../IMG/RGB .mov" width="90%" height="90%" controls>
+        Tu navegador no admite el elemento de video.
+    </video>
+
+    <p>
+        <br> <br>
+        Realizado con Olivia Nazar Anchorena.
+    </p>
+
+</section> 
+
     <!-- Inicio Footer Contacto -->
 
     <footer id="footer">

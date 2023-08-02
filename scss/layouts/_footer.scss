@@ -2,14 +2,16 @@
 
 #footer{
     background-color: $color-primary;
-    padding: 6rem;
+    padding: 20rem;
+    width: 100%;
+
     
     #contacto{
         @include flex (null, center, center ,null,null);
     }
 
     #contacto-item{
-        @include flex (null, center, center, 20rem,wrap);  
+        @include flex (null, center, space-around, 10rem,wrap);  
         width: 100%;
         list-style: none;
     }
@@ -25,21 +27,23 @@
 
 @media only screen and (min-width:500px) and (max-width: 960px) {
     #footer{
-        padding: 4rem;
+        padding: 20rem 10rem;
+        width: 100%;
         #contacto-item{
-            @include flex (null, center, center, 5rem,wrap);  
+            @include flex (column, center, center, 1rem, wrap);  
         }
     }}
 
 
     @media only screen and (max-width: 500px){
         #footer{
-            padding: 3rem;
+            padding: 30rem 0rem 15rem 0rem;
+            width: 100%;
             #contacto{
-                @include flex (null, center, center ,null,null);
+                @include flex (null, center, center ,null,wrap);
             }
         
             #contacto-item{
-                @include flex (null, center, center, 4rem,wrap);  
+                @include flex (null, center, center, 4rem,null);  
             }
         }}
