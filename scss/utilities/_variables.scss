@@ -1,0 +1,27 @@
+// Tipografias //
+
+/* Font Family, @Font-face */
+@font-face {
+    font-family: cgtimes;
+    src: url(Fonts/cg-times/CG\ Times\ Regular\ font.ttf);
+}
+
+@font-face {
+    font-family: nunito;
+    src: url(Fonts/Nunito-Regular.ttf);
+}
+
+    $font-primary: cgtimes;
+    $font-secondary: nunito;
+
+    $font-size-large: 3rem;
+    $font-size-medium:1.5rem;
+    $font-size-small:1rem;
+
+// Colores //
+    $color-primary: #1a1a1a;
+    $color-secondary: #FBFCF9;
+
+
+
+

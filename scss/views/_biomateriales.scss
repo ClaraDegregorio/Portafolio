@@ -1,0 +1,57 @@
+#biomateriales{
+    @include flex (column,center,center, 0.5rem, wrap);
+    padding: 0rem 10rem;
+
+}
+
+#biomateriales img{
+    width: 100%;
+}
+
+#biomateriales-title{
+    @include flex (column,left, left, 1.5rem, wrap);
+    padding: 2rem 0rem;
+}
+
+#biomateriales-form{
+    @include flex (null,left ,flex-end, 1rem, wrap);
+    padding: 4rem;
+
+}
+.biomateriales-form-item{
+    @include flex (column,null,top, 1rem, null);
+
+    p{
+        font-weight: bold;
+    }}
+
+    textarea {
+        flex: 1;
+        min-height: 150px;
+        flex-basis: 70%; /* Ancho inicial del 70% del contenedor */
+        resize: vertical;
+    }
+
+.button {
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px ;
+    }
+    
+
+    @media only screen and (max-width: 960px){
+        #biomateriales{
+            @include flex (column,center,center, 0.5rem, wrap);
+            padding: 0rem 2rem;
+
+            img{
+                width: 90%;
+            }
+        
+        }
+    }
+    

@@ -1,0 +1,47 @@
+
+/* Reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+$font-size-root: 62.5%;
+
+/* Inicio Body */
+body{
+    background-color: white;
+}
+
+// Tipografias //
+h1{
+    font: $font-primary;  
+    font-size: $font-size-large;
+    color: $color-primary;
+}
+
+h2{
+    font: $font-primary;
+    font-size: $font-size-medium;
+}
+
+p{
+    font-family: $font-secondary;
+    font-size: $font-size-small;
+}
+
+
+/* IMG */
+
+body img{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Links */
+a{
+    text-decoration: none;
+    color: $color-primary;
+}

@@ -1,0 +1,33 @@
+#rgb-pages{
+    @include flex (row,center,center, 0.5rem, wrap);
+    padding: 4rem;
+}
+
+.rgb-pages-item{
+    @include flex (row,center,left, 4rem, null);
+    width: 100%;
+    padding: 3rem 4rem;
+}
+
+#rgb-pages p{
+    margin-left: auto;
+    padding: 0rem 4rem;
+}
+
+/* Media Query RGB*/
+@media only screen and (max-width: 960px){
+    #rgb-pages{
+        @include flex (row,center,center, 0rem, wrap);
+        padding: 1rem;
+    }
+    .rgb-pages-item{
+        @include flex (column,center,left, 1rem, null);
+        width: 100%;
+        padding: 1rem;
+    }}
+
+    @media only screen and (max-width: 960px){
+    #rgb-pages p{
+        padding: 0rem;
+    }}
+
