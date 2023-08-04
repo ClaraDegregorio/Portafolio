@@ -197,6 +197,11 @@ a {
     margin-left: 1rem;
   }
 }
+@media only screen and (max-width: 960px) {
+  #smart {
+    padding: 0rem 2rem;
+  }
+}
 #rgb-pages {
   display: flex;
   flex-direction: row;
@@ -367,7 +372,7 @@ main .banner {
 /* Media Query Acerca de*/
 @media only screen and (max-width: 500px) {
   #acerca-de {
-    padding: 80px 30px 80px 30px;
+    padding: 50px 30px 80px 30px;
   }
   #acerca-de #cv {
     display: flex;
@@ -422,7 +427,10 @@ main .banner {
 }
 
 @media only screen and (max-width: 500px) {
-  .item {
+  #proyectos-title {
+    padding: 1.5rem;
+  }
+  #proyectos-title .item {
     align-items: center;
   }
 }
