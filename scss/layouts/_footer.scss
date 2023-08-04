@@ -30,20 +30,20 @@
         padding: 20rem 10rem;
         width: 100%;
         #contacto-item{
-            @include flex (column, center, center, 1rem, wrap);  
+            @include flex (column, center, center, 0.5rem, wrap);  
         }
     }}
 
 
     @media only screen and (max-width: 500px){
         #footer{
-            padding: 30rem 0rem 15rem 0rem;
+            padding: 20rem 1rem 20rem 0rem;
             width: 100%;
             #contacto{
                 @include flex (null, center, center ,null,wrap);
             }
         
             #contacto-item{
-                @include flex (null, center, center, 4rem,null);  
+                @include flex (column, center, center, 4rem,null);  
             }
         }}
