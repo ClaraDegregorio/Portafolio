@@ -38,7 +38,7 @@ main{
 /* Media Query Acerca de*/
 @media only screen and (max-width: 500px){
     #acerca-de{
-        padding: 80px 30px 80px 30px;
+        padding: 50px 30px 80px 30px;
                 #cv{
             @include flex (column, null, top ,2rem, null);
             flex: 1 1 clamp(300px, 30%, 400px);
@@ -82,9 +82,11 @@ main{
 }
 
 @media only screen and (max-width: 500px){
+    #proyectos-title{
+        padding: 1.5rem;
     .item{
         align-items: center;
-}}
+}}}
 
 
 .image-container {
